@@ -25,8 +25,8 @@ export default function Header() {
                 <Image
                     src="/hero.png"
                     alt="Background"
-                    layout="fill"
-                    objectFit="cover"
+                    fill={true}                    
+                    style={{ objectFit: "cover" }}
                     priority
                 />
             </div>
